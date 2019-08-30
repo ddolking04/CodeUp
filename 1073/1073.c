@@ -2,13 +2,15 @@
 
 int main() {
 	int input = 0;
-
-	do {
-		scanf("%d", &input);
+	
+	while (1) {
+		scanf_s("%d", &input);
 		if (input != 0) {
 			printf("%d\n", input);
 		}
-	} while (input != 0);
-
+		else {
+			return;
+		}
+	}
 	return 0;
 }
