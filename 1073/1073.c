@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-	int input = 0;
-	
-	while (1) {
+
+	for (int input = 0; 1; ) {
 		scanf_s("%d", &input);
 		if (input != 0) {
 			printf("%d\n", input);
